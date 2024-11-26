@@ -7,8 +7,8 @@
     <style>
         .nav1{
             border:2px solid black;
-            background-color: brown;
-            width:750px;
+            background-color: rgb(234, 137, 137);
+            width:800px;
             height:30px;
             padding-top: 10px;
         
@@ -16,45 +16,60 @@
        .nav h1{
             display: inline;
             margin-right: 20px;
+            margin-left:10px;
             border-bottom: 25px;
             padding-top:40px;
+            padding-block: 2px;
+            text-shadow: 2px 2px 5px red; 
         }
         .nav{
-            background-color: skyblue;
+            background-color: rgb(111, 203, 239);
             height:80px;
-            width:750px;
+            width:800px;
             border:2px solid black;
             padding-top: 20px;
+            text-shadow: 2px 2px 5px red;
         }
         a{
             text-decoration: none;
         }
         .div1{
-            background-color: blueviolet;
+            background-color: rgb(185, 187, 171);
             margin-top:10px;
             border:2px solid black;
-            width:750px;
+            width:800px;
             height:600px;
             overflow:auto;
+       
+            
         }
         ::-webkit-scrollbar{
             display: none;
         }
         :target{
-            background-color: aqua;
+            background-color: rgb(186, 239, 99);
+            background-blend-mode: lighten;
         }
+        .c{
+            border: 2px solid black;
+            border-radius:10px;
+            width:50px;
+            height:50px;
+            background-color:bisque;
+        }
+        
     </style>
-</head>
+</head><center>
 <body>
     <div class="nav1">
         <strong><center> VEERA VENKATA GANGA SYAM GARAGA</center></strong>
     </div>
     <div class="nav">
-        <a href="#home"><h1>About Me</h1></a>
-        <a href="#cn"><h1>Education</h1></a>
-        <a href="#ab"><h1>Projects</h1></a>
-        <a href="#lg"><h1>Skills</h1></a>
-        <a href="#ss"><h1>Contacts</h1></a>
+        <a href="#home"><h1 class="c">About Me</h1></a>
+        <a href="#cn"><h1 class="c ">Education</h1></a>
+        <a href="#ab"><h1 class="c">Projects</h1></a>
+        <a href="#lg"><h1 class="c">Skills</h1></a>
+        <a href="#ss"><h1 class="c">Contacts</h1></a>
     </div>
     <div class="div1">
         <section id="home">
@@ -106,5 +121,5 @@
     Email Address: syamgaragaabc@gmail.com</p></section>
     </div>
 
-</body>
+</body></center>
 </html>
