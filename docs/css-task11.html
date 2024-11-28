@@ -1,0 +1,120 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*@media screen and (min-width:0px) and (max-width:425px){
+            .dv2,.dv3{
+                display:none;
+            }
+        }
+        @media screen and (min-width:426px) and (max-width:800px){
+            .dv1,.dv2{
+                display:none;
+            }
+        }
+        @media screen and (min-width:800px){
+            .dv3,.dv1{
+                display:none;
+            }
+        }*/
+
+        .md{
+            background-color: rgb(236, 196, 62);
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+    
+        }
+        .dv1,.dv2,.dv3{
+            border:2px solid black;
+            
+        }
+        @media screen and (orientation:landscape){
+            .div1,.div2,.div3{
+                border:3px solid rgb(15, 15, 16);
+                background-color: blueviolet;
+                display: flex;
+                flex-wrap:wrap ;
+                width:310px;
+                border-radius: 10px;;
+
+            }
+        }
+        @media screen and (orientation:portrait){
+            .div1,.div2,.div3{
+                background-color: orangered;
+                border:3px solid black;
+                display: flex;
+                flex-wrap: wrap;
+                width:311px;
+                border-radius:10px;
+            
+            }
+
+        }
+        @media screen and (min-width:0px) and (max-width:475px){
+            .div1,.div2,.div3{
+                display:flex;
+                justify-content:center;
+            }
+            
+        }
+        .cd0,.cd1,.cd2{
+            border:2px solid black;
+            width:310px;
+            height:20px;
+            background-color:antiquewhite;
+            margin-top:-1px;
+            border-radius:10px;
+        }
+        .p0,.p1,.p2{
+            border:2px solid black;
+            background-color: rgb(195, 216, 216);
+            width:310px;
+            margin-top:-17px;
+            border-radius: 10px;
+            height:100px;
+            display:flex;
+            flex-wrap: wrap;
+            overflow:auto;
+        }
+            ::-webkit-scrollbar{
+                display:none;
+            }
+
+        
+        img{
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body><div class="md">
+    <div class="div1">
+    
+        <div><img  class="dv1" src="./images/badri3.jpeg" alt="pawan" height="200px" width="310px"></div>
+        <div><p class="cd0" style="text-align: center;">Pawan kalyan 1</p></div>
+        <div class="p0"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur molestiae, reprehenderit doloremque facilis maiores dolore quis illum temporibus tempore sed earum aperiam aliquid eveniet tempora commodi recusandae tenetur unde facere..Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis, exercitationem? Quas exercitationem accusamus mollitia, recusandae totam atque iste architecto error quaerat corrupti reprehenderit minus vero iusto beatae sed similique suscipit.</p></div>
+        </div>
+    <div class="div2">
+    <div><img  class="dv2"src="./images/og.jpg" alt="" height="200px" width="310px"></div>
+    <div><p class="cd1" style="text-align: center;">Pawan Kalyan 2</p></div>
+    <div class="p1"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias cum reprehenderit atque animi fugiat ipsum in veritatis asperiores dolorem consequatur, placeat quidem vitae hic consequuntur culpa libero ex necessitatibus dignissimos?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis, exercitationem? Quas exercitationem accusamus mollitia, recusandae totam atque iste architecto error quaerat corrupti reprehenderit minus vero iusto beatae sed similique suscipit.</p></div>
+    </div>
+    <div class="div3">
+       <div> <img class="dv3" src="./images/badri.jpeg" height="200px" width="310px"></div>
+       <div><p class="cd2" style="text-align:center;">Pawan Kalyan 3</p></div>
+       <div class="p2"><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates architecto nemo amet, facilis iure nam dicta est, hic nulla consectetur necessitatibus placeat quibusdam et eaque ratione beatae itaque. Perferendis, quas.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis, exercitationem? Quas exercitationem accusamus mollitia, recusandae totam atque iste architecto error quaerat corrupti reprehenderit minus vero iusto beatae sed similique suscipit.</p></div>
+    </div>
+</div>
+</div>
+</body>
+</html>
+
+
+
+<!-- absolute units
+    relative -->
