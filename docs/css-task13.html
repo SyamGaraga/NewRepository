@@ -1,3 +1,5 @@
+<!--
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,10 +8,12 @@
     <title>Document</title>
     <style>
         .div1{
-            border: 2px solid black;
             display:grid;
-            grid-template-areas: 'area1' 'area2' 'area3';
-
+            gap:2px;
+            grid-template-areas:'area1 area2 area2 area3 area4 area5 area6'
+                                'area7 area8 area8 area8 area4 area5 area6'
+                                'area7 area8 area8 area8 area4 area5 area6';
+                            
         }
         .dv1{
             background-color:black;
@@ -38,6 +42,16 @@
             background-color: rgb(208, 10, 10);
             grid-area:area6;
         }
+        .dv7{
+            
+            background-color: rgb(198, 208, 10);
+            grid-area:area7;
+        }
+        .dv8{
+            
+            background-color: rgb(13, 10, 208);
+            grid-area:area8;
+        }
        
 
     </style>
@@ -50,6 +64,49 @@
         <div class="dv4">4</div>
         <div class="dv5">5</div>
         <div class="dv6">6</div>
+        <div class="dv7">7</div>
+        <div class="dv8">8</div>
+
+        
+    </div>
+</body>
+</html>
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .div1{
+            display:grid;
+            grid-template-areas:'area1  area1 area1 area2 '
+                                
+                                ;
+
+        
+        }
+        .dv1{
+            background-color: green;
+            grid-area: area1;
+        }
+        .dv2{
+            background-color: red;
+            grid-area: area2;
+        }
+        .dv3{
+            background-color:orange;
+            grid-area: area3;
+        }
+    </style>
+</head>
+<body>
+    <div class="div1">
+        <div class="dv1">1</div>
+        <div class="dv2">2</div>
+        <div class="dv3">3</div>
     </div>
 </body>
 </html>

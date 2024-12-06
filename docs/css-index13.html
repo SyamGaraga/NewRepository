@@ -1,0 +1,130 @@
+<!--
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .div1{
+            border:2px solid black;
+            display:grid;
+            grid-template-columns: repeat(4,1fr);
+            grid-template-areas: 'area1 area2 area3 area4'
+                                 'area5 area5 area5 area4'
+                                 'area6 area6 area6 area4'
+                                 ;
+    
+        }
+        .d1{
+            grid-area: area1;
+            background-color: aqua;
+        }
+        .d2{
+            grid-area: area2;
+            background-color: brown;
+        }
+        .d3{
+            grid-area: area3;
+            background-color: blue;
+        }
+        .d4{
+            grid-area: area4;
+            background-color: blueviolet;
+        }
+        .d5{
+            grid-area: area5;
+            background-color: rgb(226, 43, 177);
+        }
+        .d6{
+            grid-area: area6;
+            background-color:gray ;
+        }
+    </style>
+</head>
+<body>
+    <div class="div1">
+        <div class="d1">1</div>
+        <div class="d2">2</div>
+        <div class="d3">3</div>
+        <div class="d4">4</div>
+        <div class="d5">5</div>
+        <div class="d6">6</div>
+        
+    
+    </div>
+</body>
+</html>
+<br><br>
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .div2{
+            border:2px solid black;
+            display:grid;
+            grid-template-columns: repeat(4,1fr);
+            grid-template-areas: 'area1 area2  area2 area3 '
+                                 'area1 area4 area5 area6'
+                                 'area1 area7 area8 area6'
+                                 ;
+                                 gap:5px;
+                                 
+    
+        }
+        .d11{
+            grid-area: area1;
+            background-color:green;
+        }
+        .d22{
+            grid-area: area2;
+            background-color:green;
+        }
+        .d33{
+            grid-area: area3;
+            background-color:red;
+        }
+        .d44{
+            grid-area: area4;
+            background-color:orange;
+        }
+        .d55{
+            grid-area: area5;
+            background-color: red;
+        }
+        .d66{
+            grid-area: area6;
+            background-color:green ;
+        }
+        .d77{
+            grid-area: area7;
+            background-color:red;
+        }
+        .d88{
+            grid-area: area8;
+            background-color:orange ;
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="div2">
+        <div class="d11">1</div>
+        <div class="d22">2</div>
+        <div class="d33">3</div>
+        <div class="d44">4</div>
+        <div class="d55">5</div>
+        
+        <div class="d66">6</div>
+        <div class="d77">6</div> 
+        <div class="d88">6</div>
+        
+    
+    </div>
+</body>
+</html>

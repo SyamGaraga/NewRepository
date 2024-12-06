@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+div {
+  width: 100px;
+  height: 100px;
+ 
+  position: relative;
+  animation: mymove 5s;
+  animation-fill-mode: backwards;
+}
+
+#div1 {animation-timing-function: linear;
+        transform:rotate(-30deg);}
+
+
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 300px;}
+}
+img{
+    height:100px;
+    width:100px;
+}
+</style>
+</head>
+<body>
+
+<h1>CSS Animation</h1>
+
+
+<div id="div1"><img src="https://www.svgrepo.com/show/488802/bike.svg" alt=""></div>
+
+</body>
+</html>
+
+
