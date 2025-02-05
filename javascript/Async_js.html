@@ -7,12 +7,16 @@
 </head>
 <body>
     <script>
-       let APICALL=fetch("https://jsonplaceholder.typicode.com/posts");
-       async function handleFetch(){
+        function fetchCall()
+        let data=fetch("https://jsonplaceholder.typicode.com/posts");
+        if (data){
+            return data;
+        }
+        async function handleFetch(){
         let resukt=await APICALL;
         let op=await result.json();
         console.log(op);
        }
     </script>
 </body>
-</html>
+</html> 
