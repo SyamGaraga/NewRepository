@@ -31,7 +31,7 @@
 #     print(3,'x',int(i/3),'=',i)
 
 
-sum of num
+
 # sum=0
 # n=int(input("enter n value:"))
 # for i in range(n+1):
@@ -100,38 +100,39 @@ sum of num
 #     if count==2:
 #         print(n1)
 #         break 
-#    
-n1=int(input())
-while True:
-    n1+=1
-    count=0
-    for i in range(1,n1+1):
-        if n1%i==0:
-            count+=1
-    if count==2:
-        print(n1)
-        max_num=n1
-        break
-n1=int(input())
-while True:
-    if n1 in [0,1,2]:
-        print("not exists")
-        break
-    n1-=1
-    count=0
-    for i in range(1,n1+1):
-        if n1%i==0:
-            count+=1
-    if count==2:
-        print(n1)
-        min_num=n1
-        break 
-m1=max_num-n1
-m2=n1-min_num
-if m1>m2:
-    print(min_num,"is nearer prime number")    
-else:
-    print(max_num,"is nearer prime number")
+
+
+# n1=int(input())
+# while True:
+#     n1+=1
+#     count=0
+#     for i in range(1,n1+1):
+#         if n1%i==0:
+#             count+=1
+#     if count==2:
+#         print(n1)
+#         max_num=n1
+#         break
+# n1=int(input())
+# while True:
+#     if n1 in [0,1,2]:
+#         print("not exists")
+#         break
+#     n1-=1
+#     count=0
+#     for i in range(1,n1+1):
+#         if n1%i==0:
+#             count+=1
+#     if count==2:
+#         print(n1)
+#         min_num=n1
+#         break 
+# m1=max_num-n1
+# m2=n1-min_num
+# if m1>m2:
+#     print(min_num,"is nearer prime number")    
+# else:
+#     print(max_num,"is nearer prime number")
 
 
 

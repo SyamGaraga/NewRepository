@@ -65,9 +65,10 @@
 #         print(i,'even')
 #     else:
 #         print(i,"odd")
+
+
 list1=[1,2,3,4,5]
 for i in list1:
     if i==5:
-        print("5 is found")
-    else:
-        print("5 is not found")
+        print("5 is found at",list1[i-2])
+    
