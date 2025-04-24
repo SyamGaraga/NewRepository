@@ -1,6 +1,11 @@
-console.log("i am main module")
-console.log(fun1())
-let a=4;
-let b=5;
-console.log(cal(a,b));
-console.log(x);
+const http=require("http");
+const server=http.createServer((req,res)=>{
+    res.write("hello");
+    res.end("response provided")
+});
+server.listen("3110",()=>{console.log("server running")})
+
+
+
+http=require("http")
+http.createServer()
